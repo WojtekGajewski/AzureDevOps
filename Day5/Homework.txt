@@ -1,0 +1,85 @@
+Title: Library Management Console Application
+
+Objective:
+Create a C# .NET Core console application to manage a library system, 
+allowing users to add, delete, edit, and read records of books and borrowers using MS SQL Server as the database.
+
+Scenario:
+You are working for a small local library that needs a simple,
+efficient, and cost-effective way to manage their book and borrower records. 
+Your task is to create a console application that will handle the basic operations of adding, deleting, editing, and
+reading records for both books and borrowers.
+
+Requirements:
+
+Use C# .NET Core for the console application development.
+Use MS SQL Server as the database to store and manage records.
+Create two tables in the database: 'Books' and 'Borrowers'.
+'Books' table should have the following columns: BookID (primary key), Title, Author, ISBN, and Availability.
+'Borrowers' table should have the following columns: BorrowerID (primary key), Name, Email, Phone, and TotalBorrowedBooks.
+Implement the following functionalities in the application:
+a. Add a book/borrower record
+b. Delete a book/borrower record
+c. Edit a book/borrower record
+d. Read and display all book/borrower records
+Implement error handling for invalid inputs, database connection issues, and other possible exceptions.
+Interesting Features to Implement:
+
+Search Functionality: Allow users to search for books by title, author, or ISBN, and for borrowers by name, email, or phone number.
+Borrow/Return Books: Implement the ability to borrow and return books, updating the Availability status in the 'Books' table and adjusting the TotalBorrowedBooks count in the 'Borrowers' table.
+Late Fee Calculation: Calculate late fees for borrowed books based on the due date and the actual return date.
+Export Data: Allow users to export the book and borrower records to a CSV or JSON file.
+User Authentication: Implement a simple user authentication system to allow access only to authorized library staff.
+
+
+Title: Inventory Management System for a Retail Store
+
+Objective:
+Create a C# WPF application to manage the inventory of a retail store, 
+allowing users to add, delete, edit, and view product and supplier records using MS SQL Server as the database.
+
+Scenario:
+You are working for a small retail store that needs an efficient and user-friendly
+system to manage their inventory and suppliers.
+Your task is to create a WPF application that will handle the basic operations of adding, deleting, 
+editing, and viewing records for both products and suppliers.
+
+Requirements:
+
+Use C# and Windows Presentation Foundation (WPF) for the application development.
+Use MS SQL Server as the database to store and manage records.
+Create two tables in the database: 'Products' and 'Suppliers'.
+'Products' table should have the following columns: ProductID (primary key), Name, Description, Category, Quantity, Price, and SupplierID (foreign key).
+'Suppliers' table should have the following columns: SupplierID (primary key), Name, ContactPerson, Email, Phone, and Address.
+Implement the following functionalities in the application:
+a. Add a product/supplier record
+b. Delete a product/supplier record
+c. Edit a product/supplier record
+d. View and display all product/supplier records
+Implement error handling for invalid inputs, database connection issues, and other possible exceptions.
+Interesting Features to Implement:
+
+Search Functionality: Allow users to search for products by name, category, or supplier, and for suppliers by name, contact person, or email.
+Inventory Reorder Alert: Notify the user when the quantity of a product falls below a predefined threshold, indicating that it's time to reorder.
+Data Visualization: Display a visual representation of product categories or supplier performance using charts and graphs.
+Product Import/Export: Allow users to import product data from CSV or Excel files and export product records to CSV, Excel, or PDF files.
+User Authentication: Implement a simple user authentication system to allow access only to authorized store staff.
+
+
+For the first application (Library Management Console Application),
+use standard SQL commands with SqlConnection and SqlCommand objects for connecting to and interacting 
+with the MS SQL Server database.
+
+
+For the second application (Inventory Management System for a Retail Store), use
+Entity Framework (either Code First or Database First approach)
+to connect to and interact with the MS SQL Server database,
+allowing for easier and more efficient data manipulation and management.
+
+
+1) Relation databases  
+
+
+2) object databases
+3) vector databases 
+

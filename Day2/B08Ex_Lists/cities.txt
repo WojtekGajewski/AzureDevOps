@@ -1,0 +1,3 @@
+warsaw
+berlin
+paris 

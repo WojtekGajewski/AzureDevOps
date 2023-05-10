@@ -1,0 +1,8 @@
+C:\Users\tomas\Source\Repos\WojtekGajewski\AzureDevOps\Day1\A01Introduction\bin\Debug\A01Introduction.exe.config
+C:\Users\tomas\Source\Repos\WojtekGajewski\AzureDevOps\Day1\A01Introduction\bin\Debug\A01Introduction.exe
+C:\Users\tomas\Source\Repos\WojtekGajewski\AzureDevOps\Day1\A01Introduction\bin\Debug\A01Introduction.pdb
+C:\Users\tomas\Source\Repos\WojtekGajewski\AzureDevOps\Day1\A01Introduction\obj\Debug\A01Introduction.csproj.AssemblyReference.cache
+C:\Users\tomas\Source\Repos\WojtekGajewski\AzureDevOps\Day1\A01Introduction\obj\Debug\A01Introduction.csproj.SuggestedBindingRedirects.cache
+C:\Users\tomas\Source\Repos\WojtekGajewski\AzureDevOps\Day1\A01Introduction\obj\Debug\A01Introduction.csproj.CoreCompileInputs.cache
+C:\Users\tomas\Source\Repos\WojtekGajewski\AzureDevOps\Day1\A01Introduction\obj\Debug\A01Introduction.exe
+C:\Users\tomas\Source\Repos\WojtekGajewski\AzureDevOps\Day1\A01Introduction\obj\Debug\A01Introduction.pdb

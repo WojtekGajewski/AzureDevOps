@@ -1,0 +1,24 @@
+
+1
+Write a program that initializes a variable 'n' with a positive integer and prints the
+sum of all even numbers from 1 to 'n' using a loop.
+
+2
+Create a program that asks the user for two integers and uses a conditional statement to display 
+the greater number.
+
+3
+Write a program that initializes a list of 10 numbers and uses a loop to calculate the average of the numbers.
+
+4
+Create a program that uses a loop and a conditional statement to print all prime numbers between 1 and 100.
+
+5
+Implement a program that uses the WebClient class to download an image from a URL and save it to a local folder.
+
+6
+Create a program that uses loops to generate the Fibonacci sequence up to a given number 'n'.
+
+
+//https://github.com/tomasz-trener/21Day1
+
