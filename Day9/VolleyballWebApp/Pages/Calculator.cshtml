@@ -1,0 +1,19 @@
+﻿@page
+@model VolleyballWebApp.Pages.CalculatorModel
+@{
+}
+
+<p>Hello this is calculator</p>
+
+<form method="post">
+    <label for="Number1">Number 1:</label>
+    <input id="Number1" name="Number1" />
+    <br/>
+    <label for="Number2">Number 2:</label>
+    <input id="Number2" name="Number2" />
+    <br/>
+    <button type="submit">Calculate</button>
+
+    <p>Result: @Model.Result </p>
+    <p></p>
+</form>

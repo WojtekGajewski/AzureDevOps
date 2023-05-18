@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SQL04CodeFrist
-build_property.ProjectDir = C:\Users\tomas\Source\Repos\WojtekGajewski\AzureDevOps\Day5\SQL04CodeFrist\
+build_property.ProjectDir = C:\Users\tomas\source\repos\WojtekGajewski\AzureDevOps\Day5\SQL04CodeFrist\

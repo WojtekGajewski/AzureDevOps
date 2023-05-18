@@ -10,8 +10,8 @@ namespace SQL02Repositories
     internal class PersonsRepository
     {
         private string connectionString =
-             "Server=(localdb)\\mssqllocaldb;Database=VolleyballDatabase;Integrated Security=True;";
-
+             "Server=tcp:volleyballservwg.database.windows.net,1433;Initial Catalog=VolleyballDB;Persist Security Info=False;User ID=wojgaj;Password=AB345678!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30";
+                 //    "Server=(localdb)\\mssqllocaldb;Database=VolleyballDatabase;Integrated Security=True;";
         public Person[] GetPersons()
         {
             List<Person> persons = new List<Person>();
